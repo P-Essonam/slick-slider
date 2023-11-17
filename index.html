@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        
+        <div class="conatiner">
+            <div class="title">First item</div>
+            <div class="content">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam facere inventore aliquam quasi labore consequuntur rerum corporis. Nostrum quibusdam inventore voluptatibus? Suscipit doloribus praesentium facere est impedit eius magni iusto.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit fugit doloribus, eligendi quibusdam, aspernatur perferendis veniam natus eveniet suscipit amet odio ab perspiciatis, recusandae sint quia praesentium nesciunt maxime vel?
+            </div>
+        </div>
+
+    </main>
+    
+
+
+    <script>
+        element = document.querySelector('.conatiner');
+
+        element.addEventListener('click', ()=>{
+            element.classList.toggle('active')
+            console.log(element.className)
+        })
+
+    </script>
+</body>
+</html>
