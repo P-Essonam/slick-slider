@@ -1,60 +1,9 @@
-html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 2rem;
+.slick-prev{
+    z-index: 2;
+    left: 2rem;
 }
 
-body {
-    display:  flex;
-    flex-direction: column;
-
+.slick-next{
+    right: 1rem;
+    z-index: 2;
 }
-
-header {
-    background: blanchedalmond;
-}
-
-ul{
-    display: inline;
-}
-
-main {
-    flex-grow: 1;
-}
-
-.conatiner {
-    width: 500px;
-
-}
-
-.title{
-    background-color: rgb(69, 69, 222);
-    color: white;
-    font-size: 1rem;
-    text-transform: uppercase;
-}
-
-.content {
-    position: relative;
-    overflow: hidden;/* disparition*/
-    overflow-y: auto;
-
-    background-color: rgb(9, 92, 2);
-    height: 0;
-    transition: 0.5s;
-}
-
-.active .content {
-    height: 500px;
-}
-
-
-
-
-
-
-footer {
-    background: green;
-}
-
